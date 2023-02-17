@@ -1,0 +1,148 @@
+/*------------------Carusel----------------------*/
+
+img{
+
+    height: 500px;
+}
+.fistslide{
+    color: white;
+
+}
+/*------------------Carusel----------------------*/
+
+
+
+
+
+
+/*------------------NavBar----------------------*/
+
+
+.header{
+    height: 100px;
+    background-color: rgb(241, 239, 239) !important;
+
+
+}
+.header:hover {
+    transform: translateY(1px);
+}
+/*------------------NavBar----------------------*/
+
+
+
+
+
+
+/*------------------Footer----------------------*/
+
+.container1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    background-color: rgb(241, 239, 239) !important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.store {
+    width: 200px;
+    text-align: center;
+}
+.about {
+    width: 250px;
+    text-align: center;
+
+}
+.legal{
+    width: 200px;
+    text-align: center;
+
+
+}
+.Subscribe{
+    width: 200px;
+    text-align: center;
+
+    
+}
+h3{
+    margin-left: 20px;
+}
+ ul li {
+list-style: none;
+padding: 10px;
+
+}
+.mb-3{
+    width: 200px;
+    margin-left: -20px;
+}
+.btn1{
+    margin-top: -68px;
+    margin-left: 143px;
+}
+
+.reserved{
+    text-align: center;
+}
+
+
+/*------------------Footer----------------------*/
+
+
+
+
+
+
+
+/*------------------LoginForm----------------------*/
+
+
+.login{
+    margin: auto;
+}
+.loginform{
+    display: flex;
+    margin-top: -20px;
+}
+/*------------------LoginForm----------------------*/
+
+
+
+
+
+/*------------------Cards----------------------*/
+
+
+.ContainerRow{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardss{
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.cardss:hover{
+    transform: translateY(2px);
+}
+.btncards:hover{
+    background-color: black;
+}
+.imgcard{
+    height: 300px;
+    object-fit: cover;
+}
+/*------------------Cards----------------------*/
+
+
+
+
+
