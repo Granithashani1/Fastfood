@@ -1,14 +1,13 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
     <>
-    <footer className="container1">
+    <footer className="container1" >
       <div >
-        <div className="row">
+        <div className="row" >
           <div className="store">
             <h3>Company</h3>
             <ul>
@@ -59,8 +58,6 @@ const Footer = () => {
         <div>
           <div className="reserved"><h4>© Copyright EstateAgency All Rights Reserved.</h4></div>
           <div className="icon">
-          <FontAwesomeIcon icon="fa-brands fa-facebook" />
-          <FontAwesomeIcon icon="fa-brands fa-twitter" />
           </div>
         </div>
       </div>

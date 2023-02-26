@@ -1,148 +1,132 @@
 /*------------------Carusel----------------------*/
 
-img{
-
-    height: 500px;
+img {
+  height: 500px;
 }
-.fistslide{
-    color: white;
-
+.fistslide {
+  color: white;
 }
 /*------------------Carusel----------------------*/
 
-
-
-
-
-
 /*------------------NavBar----------------------*/
 
-
-.header{
-    height: 100px;
-    background-color: rgb(241, 239, 239) !important;
-
-
+.header {
+  height: 100px;
+  background-color: rgba(25,39,42,255) !important;
 }
 .header:hover {
-    transform: translateY(1px);
+  transform: translateY(1px);
 }
 /*------------------NavBar----------------------*/
 
-
-
-
-
-
 /*------------------Footer----------------------*/
 
-.container1{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 200px;
-    background-color: rgb(241, 239, 239) !important;
+.container1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  background-color: rgba(25,39,42,255) !important;
 }
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
 }
 .store {
-    width: 200px;
-    text-align: center;
+  width: 200px;
+  text-align: center;
 }
 .about {
-    width: 250px;
-    text-align: center;
-
+  width: 250px;
+  text-align: center;
 }
-.legal{
-    width: 200px;
-    text-align: center;
-
-
+.legal {
+  width: 200px;
+  text-align: center;
 }
-.Subscribe{
-    width: 200px;
-    text-align: center;
-
-    
+.Subscribe {
+  width: 200px;
+  text-align: center;
 }
-h3{
-    margin-left: 20px;
+h3 {
+  margin-left: 20px;
 }
- ul li {
-list-style: none;
-padding: 10px;
-
+ul li {
+  list-style: none;
+  padding: 10px;
 }
-.mb-3{
-    width: 200px;
-    margin-left: -20px;
+.mb-3 {
+  width: 200px;
+  margin-left: -20px;
 }
-.btn1{
-    margin-top: -68px;
-    margin-left: 143px;
+.btn1 {
+  margin-top: -68px;
+  margin-left: 143px;
 }
 
-.reserved{
-    text-align: center;
+.reserved {
+  text-align: center;
 }
-
 
 /*------------------Footer----------------------*/
 
-
-
-
-
-
-
 /*------------------LoginForm----------------------*/
 
-
-.login{
-    margin: auto;
+.login {
+  margin: auto;
 }
-.loginform{
-    display: flex;
-    margin-top: -20px;
+.loginform {
+  display: flex;
+  margin-top: -20px;
 }
 /*------------------LoginForm----------------------*/
 
-
-
-
-
 /*------------------Cards----------------------*/
 
+.ContainerRow {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardss {
+  padding: 5px;
+  transition: 0.2s;
+}
 
-.ContainerRow{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
+.cardss:hover {
+  transform: translateY(2px);
 }
-.cardss{
-    padding: 5px;
-    transition: 0.2s;
+.btncards:hover {
+  background-color: black;
 }
-
-.cardss:hover{
-    transform: translateY(2px);
-}
-.btncards:hover{
-    background-color: black;
-}
-.imgcard{
-    height: 300px;
-    object-fit: cover;
+.imgcard {
+  height: 300px;
+  object-fit: cover;
 }
 /*------------------Cards----------------------*/
-
-
-
-
-
+.granit{
+    width: 300px;
+}
+.dardan{
+    width: 300px;
+}
+.textcolor{
+  color: white;
+}
+.colorcards{
+  color: black;
+}
+.hamburgerDescription{
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgba(20,20,20,255);
+  color: rgb(147, 143, 143);
+}
+.hamburgertext{
+  margin: auto;
+}
