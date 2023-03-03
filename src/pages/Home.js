@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import {} from "../img/Carouselstyle.css";
 import Cards from "../components/Cards";
+import AdvancedExample from "../components/morepage";
 
 const Home = () => {
   return (
@@ -30,6 +31,8 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
       <Cards />
+      <AdvancedExample />
+
     </>
   );
 };

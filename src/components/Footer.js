@@ -55,12 +55,8 @@ const Footer = () => {
             </Form.Group>
           </div>
         </div>
-        <div>
           <div className="reserved"><h4>© Copyright EstateAgency All Rights Reserved.</h4></div>
-          <div className="icon">
           </div>
-        </div>
-      </div>
       </footer>
     </>
   );
