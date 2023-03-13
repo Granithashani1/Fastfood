@@ -1,0 +1,77 @@
+/* ContactForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .fname{
+    margin: auto;
+  }
+  .age{
+    margin: auto;
+  }
+  .fage{
+    margin-left: 45px;
+  }
+  .email{
+    margin: auto;
+  }
+  .femail{
+    margin-left: 40px;
+  }
+  .description{
+    margin: auto;
+    text-align: center;
+  }
+  .fdescription{
+    text-align: center;
+  }
+
+  
+  input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 8rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+  
+  .recaptcha-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .recaptcha {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -25,6 +25,7 @@ const Layout = () => {
             >
               <Nav.Link href="/" className="textcolor">Home</Nav.Link>
               <Nav.Link href="/about" className="textcolor">About Us</Nav.Link>
+              <Nav.Link href="/contact" className="textcolor">Contact Us</Nav.Link>
               <Nav.Link href="/services" className="textcolor">Service</Nav.Link>
               <Nav.Link href="/login" className="textcolor">Login</Nav.Link>
              
