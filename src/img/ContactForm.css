@@ -1,77 +1,54 @@
-/* ContactForm.css */
+.contactform{
+  padding-top: 40px;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 60px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  .fname{
-    margin: auto;
-  }
-  .age{
-    margin: auto;
-  }
-  .fage{
-    margin-left: 45px;
-  }
-  .email{
-    margin: auto;
-  }
-  .femail{
-    margin-left: 40px;
-  }
-  .description{
-    margin: auto;
-    text-align: center;
-  }
-  .fdescription{
-    text-align: center;
-  }
+}
+label{
+  font-size: 18px;
 
-  
-  input{
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    margin-top: 0.5rem;
+}
+.lname, .age, .email, .description, .captcha, button{
+  margin-top: 10px;
+}
+.fage{
+  margin-left: 55px;
+  border-radius: 10px;
+
+}
+.femail{
+  margin-left: 48px;
+  border-radius: 10px;
+
+}
+#lastname, #firstname{
+  margin-left: 5px;
+  border-radius: 10px;
+
+}
+.submitbutton{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+.captchaa{
+  margin-left: 100px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .contactform{
+    width: 400px;
   }
-  
-  textarea {
-    resize: vertical;
-    height: 8rem;
+  .captchaa{
+    margin: auto;
+    margin-left: 50px;
+
   }
-  
-  button[type="submit"] {
-    background-color: #2196f3;
-    color: #fff;
-    border: none;
-    padding: 1rem;
-    border-radius: 4px;
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  
-  
-  .error {
-    color: red;
-    font-size: 0.8rem;
-    margin-top: 0.2rem;
-  }
-  
-  .recaptcha-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-  
-  .recaptcha {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  
+}

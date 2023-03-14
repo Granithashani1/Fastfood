@@ -99,11 +99,7 @@ const foodmenu = () => {
           ))}
         </Row>
       </Container>
-      <div className="hamburgerDescription">
-        <img src="https://cdna.artstation.com/p/assets/images/images/035/224/550/4k/nice-pictures-1.jpg?1614421560" alt="Hmaburges" />
-        <p className="hamburgertext">A hamburger, or simply burger, is a food consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise, relish, or a "special sauce," often a variation of Thousand Island dressing; and are frequently placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger.[1]</p>
-
-      </div>
+      
     </>
   );
 };

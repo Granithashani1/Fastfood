@@ -29,7 +29,6 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h1>Contact Us</h1>
       <Formik
         initialValues={{
           firstname: "",
@@ -42,7 +41,7 @@ const ContactForm = () => {
         onSubmit={handleFormSubmit}
       >
         {({ errors, touched }) => (
-          <Form>
+          <Form className="contactform">
             <div className="fname">
               <label htmlFor="firstname">First Name</label>
               <Field id="firstname" name="firstname" />
@@ -51,7 +50,7 @@ const ContactForm = () => {
               ) : null}
             </div>
 
-            <div className="fname">
+            <div className="lname">
               <label htmlFor="lastname">Last Name</label>
               <Field id="lastname" name="lastname" />
               {errors.lastname && touched.lastname ? (
@@ -68,34 +67,34 @@ const ContactForm = () => {
             <div className="email">
               <label htmlFor="email">Email</label>
               <Field id="email" name="email" type="email" className="femail" />
-              {errors.email && touched.email ? (
-                <div>{errors.email}</div>
-              ) : null}
+              {errors.email && touched.email ? <div>{errors.email}</div> : null}
             </div>
 
             <div className="description">
-                
-              <label htmlFor="description" className="description">Description</label>
+              <label htmlFor="description" className="description">
+                Description
+              </label>
               <Field
                 id="description"
                 name="description"
                 as="textarea"
                 rows="4"
-                             />
+              />
               {errors.description && touched.description ? (
                 <div>{errors.description}</div>
               ) : null}
             </div>
 
-            <div className="fname">
+            <div className="captcha">
               <ReCAPTCHA
                 ref={recaptchaRef}
                 sitekey={key}
                 onChange={handleRecaptchaChange}
+                className="captchaa"
               />
             </div>
 
-            <button type="submit">Submit</button>
+            <button type="submit" className="submitbutton">Submit</button>
           </Form>
         )}
       </Formik>
